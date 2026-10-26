@@ -77,7 +77,7 @@ button.entrar[disabled]{opacity:.75;cursor:progress}
 (function(){
   'use strict';
   var CHAVE_LS='agro-bardin-painel-chave';
-  var CABECA='<link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="icone-192.png"><link rel="apple-touch-icon" href="icone-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Agro Bardin"><meta name="robots" content="noindex, nofollow">';
+  var CABECA='<script>try{var t=localStorage.getItem("ab_tema");document.documentElement.dataset.theme=(t==="dark"||t==="light")?t:"light";}catch(e){document.documentElement.dataset.theme="light";}<\/script><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="icone-192.png"><link rel="apple-touch-icon" href="icone-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Agro Bardin"><meta name="robots" content="noindex, nofollow">';
   var $=function(id){return document.getElementById(id)};
   var P=JSON.parse($('pacote').textContent);
   var b64=function(s){var t=atob(s),u=new Uint8Array(t.length);for(var i=0;i<t.length;i++)u[i]=t.charCodeAt(i);return u;};
