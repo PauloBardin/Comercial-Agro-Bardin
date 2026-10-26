@@ -1,0 +1,16 @@
+{
+  "name": "Agro Bardin · Produção e Venda",
+  "short_name": "Agro Bardin",
+  "description": "Relatório de produção e venda da Agro Bardin",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#33176b",
+  "theme_color": "#33176b",
+  "icons": [
+    {"src": "icone-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icone-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
